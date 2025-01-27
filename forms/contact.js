@@ -20,8 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Відправляємо дані на Telegram
-    const botToken = "7849855945:AAHgXeW88o-RSzwzDlsnMyTlIk-QpTsFw7w";
-    const chatId = "743364707"; // Ваш chat_id
+    // const botToken = "7849855945:AAHgXeW88o-RSzwzDlsnMyTlIk-QpTsFw7w";
+    const botToken = "7524556877:AAEbI0NhGk_CA1hAP93lUOdGPgXll7yGrh4"
+    // const chatId = "743364707"; // Ваш chat_id
+    const chatId = "402469073"
     const text = `
       📝 *Повідомлення з сайту візитки:*
       - 👤 *Ім'я:* ${data.name}
